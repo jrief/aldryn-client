@@ -5,10 +5,12 @@ from aldryn_client import __version__
 
 
 INSTALL_REQUIRES = [
-    'GitPython==0.3.2.RC1',
+    'GitPython>=0.3.2',
     'requests>=1',
     'docopt',
     'pyyaml',
+    'gitdb',
+    'smmap',
 ]
 DEPENDENCY_LINKS = [
     'https://bitbucket.org/pygame/pygame/get/df48571.zip#egg=pygame-1.9.2',
